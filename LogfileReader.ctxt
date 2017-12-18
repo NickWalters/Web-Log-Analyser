@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=LogfileReader
-comment0.text=\r\n\ A\ class\ to\ read\ information\ from\ a\ file\ of\ web\ server\ accesses.\r\n\ Currently,\ the\ log\ file\ is\ assumed\ to\ contain\ simply\r\n\ date\ and\ time\ information\ in\ the\ format\:\r\n\r\n\ \ \ \ year\ month\ day\ hour\ minute\r\n\ Log\ entries\ are\ sorted\ into\ ascending\ order\ of\ date.\r\n\ \r\n
+comment0.text=\r\n\ A\ class\ to\ read\ information\ from\ a\ file\ of\ web\ server\ accesses.\r\n\ Currently,\ the\ log\ file\ is\ assumed\ to\ contain\ simply\r\n\ date\ and\ time\ information\ in\ the\ format\:\r\n\r\n\ \ \ \ year\ month\ day\ hour\ minute\r\n\ Log\ entries\ are\ sorted\ into\ ascending\ order\ of\ date.\r\n
 comment1.params=
 comment1.target=LogfileReader()
 comment1.text=\r\n\ Create\ a\ LogfileReader\ to\ supply\ data\ from\ a\ default\ file.\r\n

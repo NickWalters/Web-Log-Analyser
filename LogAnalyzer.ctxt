@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=LogAnalyzer
-comment0.text=\r\n\ Read\ web\ server\ data\ and\ analyse\ hourly\ access\ patterns.\r\n\ \r\n
+comment0.text=\r\n\ Read\ web\ server\ data\ and\ analyse\r\n\ hourly\ access\ patterns.\r\n\ \r\n
 comment1.params=
 comment1.target=LogAnalyzer()
 comment1.text=\r\n\ Create\ an\ object\ to\ analyze\ hourly\ web\ accesses.\r\n

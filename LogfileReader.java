@@ -15,7 +15,6 @@ import java.util.Scanner;
  *
  *    year month day hour minute
  * Log entries are sorted into ascending order of date.
- * 
  */
 public class LogfileReader implements Iterator<LogEntry>
 {
@@ -66,13 +65,18 @@ public class LogfileReader implements Iterator<LogEntry>
             logfile.close();
             dataRead = true;
         }
-        catch(FileNotFoundException | URISyntaxException e) {
+        catch(FileNotFoundException e) {
+            System.out.println("Problem encountered: " + e);
+            dataRead = false;
+        }
+        catch(URISyntaxException e) {
             System.out.println("Problem encountered: " + e);
             dataRead = false;
         }
         // If we couldn't read the log file, use simulated data.
         if(!dataRead) {
-            System.out.println("Failed to read the data file: " + filename);
+            System.out.println("Failed to read the data file: " +
+                               filename);
             System.out.println("Using simulated data instead.");
             createSimulatedData(entries);
         }
@@ -150,7 +154,7 @@ public class LogfileReader implements Iterator<LogEntry>
     private void createSimulatedData(ArrayList<LogEntry> data)
     {
         LogfileCreator creator = new LogfileCreator();
-        // How many simulated entries we want.
+       // How many simulated entries we want.
         int numEntries = 100;
         for(int i = 0; i < numEntries; i++) {
             data.add(creator.createEntry());

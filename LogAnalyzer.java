@@ -1,5 +1,6 @@
 /**
- * Read web server data and analyse hourly access patterns.
+ * Read web server data and analyse
+ * hourly access patterns.
  * 
  */
 public class LogAnalyzer

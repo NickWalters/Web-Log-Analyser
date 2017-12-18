@@ -3,6 +3,7 @@ import java.util.*;
 
 /**
  * A class for creating log files of random data.
+ * 
  */
 public class LogfileCreator
 {
