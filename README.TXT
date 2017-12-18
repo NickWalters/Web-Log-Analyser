@@ -1,5 +1,5 @@
-Project: weblog-analyzer
-Aothors: David J. Barnes and Michael Kölling
+﻿Project: weblog-analyzer
+
 
 This project is part of the material for chapter 4 of the book
 
